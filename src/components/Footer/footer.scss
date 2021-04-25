@@ -1,0 +1,16 @@
+footer {
+  background: linear-gradient(116deg, #5A5789 0%, #2D2C45 100%) 0% 0%;
+  height: 60px;
+  color: #F2F2F2;
+  width: 100%;
+
+  .content {
+    padding-top: 25px;
+
+    p {
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}
