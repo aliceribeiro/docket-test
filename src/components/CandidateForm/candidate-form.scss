@@ -1,0 +1,153 @@
+.candidate {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  transform: translate(0, -5%);
+
+  .candidate-form {
+    width: 40%;
+    padding: 30px 30px;
+    background-color: #FFF;
+    border: 1px solid #D3E2E5;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #2E2D2C66;
+    
+    .candidate-form_item {
+      h4 {
+        font-weight: 600;
+        margin: 30px 0;
+      }
+      p{
+        color: #E65562;
+      }
+      .candidate-form_error {
+        color: #E65562;
+        font-size: 14px;
+      }
+    }
+  
+    .candidate-form_item label {
+      display: flex;
+      margin-top: 20px;
+      line-height: 24px;
+    }
+    
+    .candidate-form_item input {
+      width: 100%;
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      background: #F5F8FA;
+      border: 1px solid #D3E2E5;
+      border-radius: 5px;
+      height: 50px;
+      padding: 0 16px;
+      outline-color: #5A5789;
+    }
+  
+    .candidate-form_flex {
+      display: flex;
+    }
+
+    .candidate-form_margin {
+      margin-right: 30px;
+    }
+  
+    .btn-submit {
+      margin-top: 50px;
+      width: 90PX;
+      height: 40px;
+      color: #F2F2F2;
+      background-color: #5A5789 ;
+      border-radius: 20px;
+      box-shadow: 0px 3px 6px #2E2D2C66;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .btn-submit:hover {
+      background: #2D2C45;
+    }
+  
+  }
+
+  .candidate-info {
+    width: 40%;
+    background-color: #EBF0F5;
+    border: 1px solid #D3E2E5;
+    border-radius: 5px;
+    padding: 30px 30px;
+    box-shadow: 0px 3px 6px #2E2D2C66;
+
+    .candidate-info_item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+
+      h2 {
+        text-transform: uppercase;
+        color: #5A5789;
+      }
+    }
+
+    .candidate-info_item label {
+      font-weight: 600;
+      margin-bottom: 10px;
+
+    }
+
+    .candidate-info_item input {
+      background-color: #EBF0F5;
+    }
+
+    .candidate-info_projects {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+
+    .candidate-form {
+      width: 90%;
+      margin-bottom: 50px;
+
+      h2 {
+        font-size: 24px;
+      }
+
+      h4 {
+        font-size: 16px;
+      }
+
+      .input-block label {
+        font-size: 14px;
+      }
+
+      .candidate-form_flex {
+        flex-direction: column;
+
+        .candidate-form_margin {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .candidate-info {
+      width: 90%;
+      margin-left: 0;
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .candidate-info_projects {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
