@@ -1,0 +1,19 @@
+$bg-color: #F3F3F3;
+$text-color: #2E2D2C;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+}
+
+body {
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+body, input, button, textarea {
+  font: 600 18px 'Open Sans', sans-serif;
+}
