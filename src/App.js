@@ -1,10 +1,10 @@
 import './styles/global.scss';
 
+import Routes from './routes';
+
 function App() {
   return (
-    <section>
-      <h1>Hellooo</h1>
-    </section>
+    <Routes />
   );
 }
 
