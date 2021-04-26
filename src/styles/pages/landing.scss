@@ -1,0 +1,52 @@
+.page-landing {
+  width: 100%;
+  height: 100vh;
+
+  main {
+    padding: 50px 50px;
+    background: url(../../assets/landing.svg) no-repeat 90% center;
+    background-size: auto 90%;
+
+    h1 {
+      margin-bottom: 20px;
+    }
+    
+    .btn-landing {
+      display: flex;
+      flex-direction: row;
+      width: 300px;
+      height: 200px;
+    }
+    
+    .btn-primary {
+      background: #5A5789;
+      color: #F2F2F2;
+      letter-spacing: 0.5px;
+      border-radius: 20px;
+
+      margin: 50px 50px 50px 0;
+      padding: 0 15px;
+      text-align: center;
+
+      box-shadow: 0px 3px 6px #2E2D2C66;
+      transition: background-color 0.2s;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .btn-primary:hover {
+      background: #2D2C45;
+    }
+
+    @media screen and (max-width: 1024px) {
+      background: none;
+      width: 100%;
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+  }
+}
