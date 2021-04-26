@@ -4,8 +4,8 @@ import '../Footer/footer.scss';
 function Footer() {
 
   return (
-    <footer>
-      <div className="content">
+    <footer className="footer">
+      <div className="footer-content">
         <p>Docket © 2019</p>
       </div>
     </footer>
